@@ -1,4 +1,4 @@
-const App = require("../model/app.model.js");
+const App = require("../models/app.model.js");
 
 // Create and Save a new Message
 exports.create = (req, res) => {

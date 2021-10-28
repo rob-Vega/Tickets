@@ -4,7 +4,7 @@ const mongoose = require('mongoose');
 
 mongoose.Promise = global.Promise;
 
-mongoose.connect(YOUR_MONGODB_URL, {
+mongoose.connect("mongodb+srv://Roberto:4jZbdYgrxEOicZNM@tickets.86mtr.mongodb.net/Tickets?retryWrites=true&w=majority", {
     useNewUrlParser: true
 }).then(() => {
     console.log("Successfully connected to the database");    
